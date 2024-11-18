@@ -23,10 +23,7 @@ class MainActivity : ComponentActivity() {
                     Navigasi(
                         modifier = Modifier.padding(innerPadding)
                     )
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+
                 }
             }
         }
