@@ -34,7 +34,7 @@ fun Navigasi(
             modifier = modifier.padding(isipadding),
             navController = navHost, startDestination = Halaman.Form.name
         ) {
-            composable (route = Halaman.Form.name){
+            composable (route = Halaman.Data.name){
                 val konteks = LocalContext.current
                 FormulirView (
                     pilihanJK = DataJK.isiJk.map{
