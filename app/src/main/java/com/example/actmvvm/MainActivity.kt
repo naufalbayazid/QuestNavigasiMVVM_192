@@ -20,6 +20,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             ActMVVMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    Navigasi(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                     Greeting(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
